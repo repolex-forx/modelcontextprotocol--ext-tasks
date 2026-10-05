@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/modelcontextprotocol/ext-tasks/commit/5246bc3d0253c1c4b09e682f690b7e8b97362500",
       "git:hexsha": "5246bc3d0253c1c4b09e682f690b7e8b97362500",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "v0.2.2"
     },
     {

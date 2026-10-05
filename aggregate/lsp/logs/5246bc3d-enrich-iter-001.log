@@ -1,0 +1,31 @@
+[2026-10-05T09:50:26Z] === ENRICH ITERATION 1 START | repo=modelcontextprotocol/ext-tasks sha=5246bc3d ===
+[2026-10-05T09:50:26Z] [iter=1] PHASE START: enrich repo=modelcontextprotocol/ext-tasks sha=5246bc3d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5246bc3d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5246bc3d0253c1c4b09e682f690b7e8b97362500.nq.gz
+[2026-10-05T09:50:35Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-10-05T09:50:40Z] [iter=1] AST store loaded triples=682006 load_secs=5 mem_mb=874 MB
+[2026-10-05T09:50:40Z] [iter=1] Step 2: Finding LSP targets mem_mb=874 MB
+[2026-10-05T09:50:41Z] [iter=1] LSP targets found call_sites=6093 imports=242 extends=290 implements=3 secs=1
+[2026-10-05T09:50:41Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=874 MB
+[2026-10-05T09:50:43Z] [iter=1] Position index built positions=45852 nodes_with_types=53139 secs=2 mem_mb=874 MB
+[2026-10-05T09:50:43Z] [iter=1] Step 3: Starting LSP resolution mem_mb=874 MB already_completed_types=[] already_completed_files=0
+[2026-10-05T09:50:43Z] [iter=1] Resolving target type target_type=call_site count=6093
+[2026-10-05T09:51:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=1 resolved=16 errors=211 current=packages/ext-tasks/src/client/client-adapter.test.ts
+[2026-10-05T09:51:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=2 resolved=35 errors=426 current=packages/ext-tasks/src/receiver/receiver.test.ts
+[2026-10-05T09:52:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=3 resolved=80 errors=661 current=packages/ext-tasks/src/client/task-resumption.test.ts
+[2026-10-05T09:53:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=5 resolved=140 errors=963 current=packages/ext-tasks/src/client/immediate-session-basics.test.ts
+[2026-10-05T09:54:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=8 resolved=210 errors=1492 current=packages/ext-tasks/src/core/v2/schemas.ts
+[2026-10-05T09:54:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.5 files_done=11 resolved=263 errors=1741 current=packages/ext-tasks/src/client/v1-input-task.test.ts
+[2026-10-05T09:55:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=13 resolved=368 errors=2003 current=packages/ext-tasks/src/core/v1/index.test.ts
+[2026-10-05T09:56:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=17 resolved=500 errors=2363 current=scripts/generate-schemas.ts
+[2026-10-05T09:56:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=22 resolved=600 errors=2583 current=scripts/fetch-spec-schema.ts
+[2026-10-05T09:57:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=31 resolved=704 errors=2795 current=packages/ext-tasks/src/client/input-routing.ts
+[2026-10-05T09:57:45Z] [iter=1] Target type resolved target_type=call_site resolved=793 errors=2931 secs=422 mem_mb=874 MB
+[2026-10-05T09:57:45Z] [iter=1] Resolving target type target_type=import_statement count=242
+[2026-10-05T09:57:50Z] [iter=1] Target type resolved target_type=import_statement resolved=175 errors=0 secs=5 mem_mb=874 MB
+[2026-10-05T09:57:50Z] [iter=1] Resolving target type target_type=extends_clause count=290
+[2026-10-05T09:57:52Z] [iter=1] Target type resolved target_type=extends_clause resolved=290 errors=0 secs=3 mem_mb=874 MB
+[2026-10-05T09:57:52Z] [iter=1] Resolving target type target_type=implements_clause count=3
+[2026-10-05T09:57:53Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=7.4 files_done=1 resolved=1 errors=0 current=packages/ext-tasks/test-support/client/fake-port.ts
+[2026-10-05T09:57:54Z] [iter=1] Target type resolved target_type=implements_clause resolved=3 errors=0 secs=1 mem_mb=874 MB
+[2026-10-05T09:58:00Z] [iter=1] Step 5: Writing final enrichment file triples=65282
+[2026-10-05T09:58:01Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/5246bc3d0253c1c4b09e682f690b7e8b97362500.nq.gz size_kb=1262
+[2026-10-05T09:58:01Z] [iter=1] PHASE END: enrich elapsed_s=454 elapsed_min=7.6 total_triples=65282

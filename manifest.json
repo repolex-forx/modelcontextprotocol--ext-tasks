@@ -102,6 +102,91 @@
       ],
       "ast": [
         "aggregate/ast/5246bc3d0253c1c4b09e682f690b7e8b97362500/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5246bc3d0253c1c4b09e682f690b7e8b97362500.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "mermaid",
+          "ecosystem": "NPM",
+          "version": "11.17.0",
+          "githubOrg": "mermaid-js",
+          "githubRepo": "mermaid",
+          "githubUrl": "git+https://github.com/mermaid-js/mermaid.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "ts-to-zod",
+          "ecosystem": "NPM",
+          "version": "5.1.0",
+          "githubOrg": "fabien0102",
+          "githubRepo": "ts-to-zod",
+          "githubCommit": "20c334682f76916da3a2b590c67f0a1be4b50c5a",
+          "githubTag": "v5.1.0",
+          "githubUrl": "git+https://github.com/fabien0102/ts-to-zod.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "tsx",
+          "ecosystem": "NPM",
+          "version": "4.21.0",
+          "githubOrg": "privatenumber",
+          "githubRepo": "tsx",
+          "githubCommit": "f6284cd50575ce6e8d110f63266d66cb9cde3b88",
+          "githubTag": "v4.21.0",
+          "githubUrl": "git+https://github.com/privatenumber/tsx.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript",
+          "ecosystem": "NPM",
+          "version": "5.0.0",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitepress",
+          "ecosystem": "NPM",
+          "version": "1.6.4",
+          "githubOrg": "vuejs",
+          "githubRepo": "vitepress",
+          "githubCommit": "1fc537b78cda287fa23c1129a815ad9455fd8106",
+          "githubTag": "v1.6.4",
+          "githubUrl": "git+https://github.com/vuejs/vitepress.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitepress-plugin-mermaid",
+          "ecosystem": "NPM",
+          "version": "2.0.17",
+          "githubOrg": "emersonbottero",
+          "githubRepo": "vitepress-plugin-mermaid",
+          "githubUrl": "git+https://github.com/emersonbottero/vitepress-plugin-mermaid.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitest",
+          "ecosystem": "NPM",
+          "version": "5.0.0",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "f441c6fab25e579c5b7dd3dd50538416f415fbae",
+          "githubTag": "v5.0.0",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "zod",
+          "ecosystem": "NPM",
+          "version": "4.5.4",
+          "githubOrg": "colinhacks",
+          "githubRepo": "zod",
+          "githubCommit": "e8e206fa33ac5fe7ce20a2beb12d57b1cb3df653",
+          "githubTag": "v4.5.4",
+          "githubUrl": "git+https://github.com/colinhacks/zod.git",
+          "source": "build_file:package.json"
+        }
       ]
     }
   ],
