@@ -187,7 +187,9 @@
           "githubUrl": "git+https://github.com/colinhacks/zod.git",
           "source": "build_file:package.json"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/5246bc3d0253c1c4b09e682f690b7e8b97362500/chunk-001.nq.gz",
+      "dep": "dep/5246bc3d0253c1c4b09e682f690b7e8b97362500.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
