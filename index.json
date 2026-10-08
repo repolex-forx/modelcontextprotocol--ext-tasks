@@ -1,0 +1,11 @@
+{
+  "org": "modelcontextprotocol",
+  "repo": "ext-tasks",
+  "versions": [
+    {
+      "commit": "5246bc3d0253c1c4b09e682f690b7e8b97362500",
+      "tag": "main",
+      "parsed_at": "2026-10-08T11:06:15.015632+00:00"
+    }
+  ]
+}
